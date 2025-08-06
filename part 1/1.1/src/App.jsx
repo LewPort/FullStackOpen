@@ -31,7 +31,7 @@ const Content = (props) => {
 const Total = (props) => {
   return (
     <div>
-      <Part part="Number of exercises:" exercises={props.totalExercises} />
+      <Part part="Number of exercises" exercises={props.totalExercises} />
     </div>
   )
 }
